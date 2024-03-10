@@ -82,22 +82,26 @@
 
   <br>
 
-- ### Operating System
+- ### Operating System ([운영체제 강의](https://www.inflearn.com/course/%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C-%EA%B3%B5%EB%A3%A1%EC%B1%85-%EC%A0%84%EA%B3%B5%EA%B0%95%EC%9D%98#curriculum) 참고)
 
   - [운영체제란]()
+  - [프로세스와 프로세스 통신]()
+  - [스레드 및 멀티스레딩]()
   - [프로세스 vs 스레드]()
-  - [프로세스 주소 공간]()
   - [인터럽트(Interrupt)]()
   - [시스템 콜(System Call)]()
   - [PCB와 Context Switching]()
   - [IPC(Inter Process Communication)]()
   - [CPU 스케줄링]()
+  - [스케줄링 알고리즘]()
+  - [프로세스 동기화 문제와 해결 방법]()
+  - [세마포어(Semaphore) & 뮤텍스(Mutex)]()
   - [데드락(DeadLock)]()
   - [Race Condition]()
-  - [세마포어(Semaphore) & 뮤텍스(Mutex)]()
   - [페이징 & 세그먼테이션]()
   - [페이지 교체 알고리즘]()
   - [메모리(Memory)]()
+  - [스토리와 입출력]()
   - [파일 시스템]()
 
   <br>
