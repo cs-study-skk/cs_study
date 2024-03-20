@@ -116,3 +116,13 @@
 1. 발생원(Source) : 인터럽트를 발생시킨 소스 또는 하드웨어 장치가 무엇인지. 즉, 누가 인터럽트를 발생시켰는지.
 2. 우선순위(Priority) : 여러 인터럽트 요청이 동시에 발생할 때, 어떤 인터럽트를 우선하여 처리할지. 높은 우선 순위를 가진 인터럽트는 먼저 처리되고, 일반적으로 중요한 인터럽트에 높은 우선 순위가 할당된다.
 3. 인터럽트 벡터(Interrupt Vector) : 각 인터럽트에 대한 서비스 루틴(Interrupt Service Routine, ISR)의 시작 번지. CPU는 인터럽트가 발생했을 때 해당 인터럽트 벡터를 통해 ISR 위치를 찾고 실행한다.
+
+
+[참고](https://velog.io/@hyun0310woo/7.-%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C-%EC%9D%B8%ED%84%B0%EB%9F%BD%ED%8A%B8%EC%97%90-%EB%8C%80%ED%95%B4%EC%84%9C)
+[참고](https://nice-engineer.tistory.com/entry/%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C-%EC%9D%B8%ED%84%B0%EB%9F%BD%ED%8A%B8Interrupt)
+[참고](https://whatisthenext.tistory.com/147)
+[참고](https://baebalja.tistory.com/354)
+[참고](https://velog.io/@yuseogi0218/Interrupt-%EC%9D%B8%ED%84%B0%EB%9F%BD%ED%8A%B8)
+[참고](https://medium.com/@lazypanda43/%EC%9D%B8%ED%84%B0%EB%9F%BD%ED%8A%B8-%EC%A2%85%EB%A5%98%EC%99%80-%EC%B2%98%EB%A6%AC%EA%B3%BC%EC%A0%95%EA%B3%BC-%EC%9A%B0%EC%84%A0%EC%88%9C%EC%9C%84-c95c26909472)
+[참고](https://binworld.kr/10)
+
