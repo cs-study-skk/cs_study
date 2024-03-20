@@ -118,6 +118,7 @@
 3. 인터럽트 벡터(Interrupt Vector) : 각 인터럽트에 대한 서비스 루틴(Interrupt Service Routine, ISR)의 시작 번지. CPU는 인터럽트가 발생했을 때 해당 인터럽트 벡터를 통해 ISR 위치를 찾고 실행한다.
 
 
+참고 블로그: 
 [참고](https://velog.io/@hyun0310woo/7.-%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C-%EC%9D%B8%ED%84%B0%EB%9F%BD%ED%8A%B8%EC%97%90-%EB%8C%80%ED%95%B4%EC%84%9C)
 [참고](https://nice-engineer.tistory.com/entry/%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C-%EC%9D%B8%ED%84%B0%EB%9F%BD%ED%8A%B8Interrupt)
 [참고](https://whatisthenext.tistory.com/147)
