@@ -117,6 +117,7 @@
 2. 우선순위(Priority) : 여러 인터럽트 요청이 동시에 발생할 때, 어떤 인터럽트를 우선하여 처리할지. 높은 우선 순위를 가진 인터럽트는 먼저 처리되고, 일반적으로 중요한 인터럽트에 높은 우선 순위가 할당된다.
 3. 인터럽트 벡터(Interrupt Vector) : 각 인터럽트에 대한 서비스 루틴(Interrupt Service Routine, ISR)의 시작 번지. CPU는 인터럽트가 발생했을 때 해당 인터럽트 벡터를 통해 ISR 위치를 찾고 실행한다.
 
+<br>
 
 참고 블로그: 
 [참고](https://velog.io/@hyun0310woo/7.-%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C-%EC%9D%B8%ED%84%B0%EB%9F%BD%ED%8A%B8%EC%97%90-%EB%8C%80%ED%95%B4%EC%84%9C)
