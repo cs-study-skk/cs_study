@@ -89,7 +89,7 @@
   - [스레드 및 멀티스레딩]()
   - [프로세스 vs 스레드]()
   - [인터럽트(Interrupt)](https://github.com/cs-study-skk/cs_study/blob/main/OS/Interrupt.md)
-  - [시스템 콜(System Call)]()
+  - [시스템 콜(System Call)](https://github.com/cs-study-skk/cs_study/blob/main/OS/System_Call.md)
   - [PCB와 Context Switching]()
   - [IPC(Inter Process Communication)]()
   - [CPU 스케줄링]()
