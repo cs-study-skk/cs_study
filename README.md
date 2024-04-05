@@ -18,7 +18,6 @@
 |:-----:|:-----:|
 |송지혜|https://github.com/ssongji|
 |김소희|https://github.com/xxoxee|
-|김은지|https://github.com/oodi-g7|
 
 <br>
 
