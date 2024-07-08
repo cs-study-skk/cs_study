@@ -63,6 +63,12 @@
   - [트랜잭션 격리 수준(Transaction Isolation Level)]()
   - [저장 프로시저(Stored PROCEDURE)]()
   - [레디스(Redis)]()
+  - [파티셔닝(Partitioning)]()
+  - [튜닝(Tuning)]()
+  - [JPA/DI]()
+  - [DB에서 나올 수 있는 면접 질문]()
+  - [정보계, 계정계, 대외계, 채널계, 운영계, 기간계]()
+  - [ILM]()
 
   <br>
 
