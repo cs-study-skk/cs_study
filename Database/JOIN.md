@@ -68,10 +68,17 @@ SELECT *
 - 왼쪽 테이블을 기준으로 모든 레코드들을 리턴한다.
 - 만약 오른쪽 테이블의 데이터 중 왼쪽 레코드와 매칭이 되는 경우가 있다면 왼쪽 레코드와 매칭된 경우만 채워진 상태로 리턴된다.
 ```sql
+-- MYSQL
 SELECT *
   FROM RAW_DATA.VITAL V
   LEFT JOIN RAW_DATA.ALERT A
          ON V.VITALID = A.VITALID;
+
+-- ORACLE
+SELECT *
+  FROM RAW_DATA.VITAL V
+     , RAW_DATA.ALERT A
+ WHERE V.VITALID = A.VITALID(+);
 ```
 
 ![](https://velog.velcdn.com/images/ssongji/post/dda07bf5-0357-4f65-996a-25d92ff17c65/image.png)
@@ -82,10 +89,17 @@ SELECT *
 - 오른쪽 테이블을 기준으로 모든 레코드들을 리턴한다.
 - `LEFT JOIN`과 방향만 바뀐 개념으로 만약 왼쪽 테이블의 데이터 중 오른쪽 레코드와 매칭되는 경우가 있다면 오른쪽 레코드와 매칭되는 경우만 채워진 상태로 리턴된다.
 ```sql
+-- MYSQL
 SELECT *
   FROM RAW_DATA.VITAL V
  RIGHT JOIN RAW_DATA.ALERT A
          ON V.VITALID = A.VITALID;
+
+-- ORACLE
+SELECT *
+  FROM RAW_DATA.VITAL V
+     , RAW_DATA.ALERT A
+ WHERE V.VITALID(+) = A.VITALID;
 ```
 
 ![](https://velog.velcdn.com/images/ssongji/post/b36c9441-574c-4c60-b0c3-cb6319bd325f/image.png)
@@ -113,6 +127,10 @@ FULL JOIN raw_data.Alert A
 SELECT *
   FROM RAW_DATA.VITAL V
 CROSS JOIN RAW_DATA.ALERT A;
+
+SELECT *
+  FROM RAW_DATA.VITAL V
+     , RAW_DATA.ALERT A;
 ```
 
 ![](https://velog.velcdn.com/images/ssongji/post/f5c01bf8-a764-49db-873a-dbbb3fa96738/image.png)
@@ -121,10 +139,16 @@ CROSS JOIN RAW_DATA.ALERT A;
 ### 6) SELF JOIN
 - 동일한 테이블을 alias를 달리 해서 자기 자신과 조인한다.
 - 예시는 기본적인 문법이지만 보통 SELF 조인은 같은 테이블에서 특정 정보를 뽑고자 할 때 각각 다른 조건을 주어야 하는 경우 사용한다.
+- 보통 셀프 조인은 계층적 데이터, 중복 데이터, 현재 행과 이전 행을 비교해야 하는 연속적 데이터를 확인할 때 쓰인다.
 ```
 SELECT *
-  FROM raw_data.Vital V1
-  JOIN raw_data.Vital V2
+  FROM RAW_DATA.VITAL V1
+  JOIN RAW_DATA.VITAL V2
     ON V1.VITALID = V2.VITALID
+
+SELECT *
+  FROM RAW_DATA.VITAL V1
+     , RAW_DATA.VITAL V2
+ WHERE V1.VITALID = V2.VITALID;;
 ```
 
