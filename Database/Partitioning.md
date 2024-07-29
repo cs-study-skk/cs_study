@@ -52,7 +52,8 @@
 
 데이터베이스의 테이블을 행(row)을 기준으로 테이블을 분할하는 형태다.
 
-![다운로드 (2)](/Users/isoyeon/Desktop/다운로드 (2).png)
+<img width="606" alt="다운로드 (2)" src="https://github.com/user-attachments/assets/e39a4f53-c2d9-4bbd-890f-732d5d2e1501">
+
 
 - 성능, 가용성을 위해 KEY 기반으로 여러 곳에 분산 저장
 - 일반적으로 분산 저장 기술에서 파티셔닝은 수평 분할을 의미함
@@ -82,7 +83,8 @@
 
 데이터베이스의 테이블을 열(Column)을 기준으로 분할하는 형태다.
 
-![다운로드 (1)](/Users/isoyeon/Desktop/다운로드 (1).png) 
+<img width="640" alt="다운로드 (1)" src="https://github.com/user-attachments/assets/93349ab4-5473-46da-8932-aca03d99eeb4">
+
 
 만약 한 테이블에 수많은 컬럼이 존재한다면 디스크의 여러 블록에 데이터가 저장되므로 I/O 성능 저하를 불러올 수 있다. 이렇게 컬럼이 많아지면 로우 체이닝과 로우 마이그레이션이 많아져서 성능이 저하된다.
 
@@ -130,7 +132,8 @@
 
 
 
-![다운로드 (3)](/Users/isoyeon/Desktop/다운로드 (3).png)
+<img width="640" alt="다운로드 (3)" src="https://github.com/user-attachments/assets/56086070-3a18-46e0-869b-2414894e7725">
+
 
 
 
@@ -225,9 +228,9 @@ PARTITION BY RANGE (YEAR(trans_date)) SUBPARTITION BY HASH(amount) SUBPARTITIONS
 
 라운드 로빈은 파티션에 행의 고른 분포를 원할 때 사용한다.
 
-![다운로드 (1)](/Users/isoyeon/Desktop/다운로드 (4).png)
+<img width="640" alt="다운로드 (4)" src="https://github.com/user-attachments/assets/84356dee-870d-4c09-8067-2a71b585f599">
 
-![다운로드 (1)](/Users/isoyeon/Desktop/다운로드 (1).jpeg)
+![다운로드](https://github.com/user-attachments/assets/f23431d7-db2d-4103-bf78-dafcbaaa3275)
 
 
 
