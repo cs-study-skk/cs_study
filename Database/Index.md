@@ -37,7 +37,8 @@ MySQL에서는 인덱싱이나 검색 방식에 따라 데이터베이스 엔진
 >
 > 데이터베이스 옵티마이저는 SQL 쿼리의 실행 계획을 수립하는 역할을 한다. 쿼리를 실행하기 위해 데이터베이스가 사용할 구체적인 절차와 순서를 의미하는데, 인덱스는 옵티마이저가 효율적인 실행 계획을 수립하는 데 중요한 요소 중 하나다.
 
-![image](/Users/isoyeon/Desktop/image.png)
+![image](https://github.com/user-attachments/assets/af486587-d6d3-484d-a28f-810a5f0c6d2b)
+
 
 - 인덱스 생성
 
@@ -70,8 +71,8 @@ SELECT * FROM employees ORDER BY employee_id;
 > 가장 느린 Scanning 방법이며, 전체 데이터를 읽는 과정에서 많은 자원을 소모하게 된다.
 
 
+![image (1)](https://github.com/user-attachments/assets/ab1f9027-6d59-4c5c-ac50-6517449a9eea)
 
-![image (1)](/Users/isoyeon/Desktop/image (1).png)
 
 인덱스 스캔에서 특정 시점까지는 Full Table Scan이 더 빠를 수 있다.
 
@@ -180,7 +181,8 @@ DBMS의 ` 인덱스`도 마찬가지다. 인덱스가 많은 테이블에서는 
 
 `B-Tree`의 `B`는 Binary가 아닌 Balanced를 의미한다.
 
-![images_emplam27_post_64290106-d927-4a82-9e08-8e52783c7dd3_DB 인덱스](/Users/isoyeon/Desktop/images_emplam27_post_64290106-d927-4a82-9e08-8e52783c7dd3_DB 인덱스.jpg)
+![images_emplam27_post_64290106-d927-4a82-9e08-8e52783c7dd3_DB 인덱스](https://github.com/user-attachments/assets/e4f00ea7-01d9-49da-91e2-443bdb204a68)
+
 
 - 위와 같은 구조가 `B-Tree`
 
@@ -192,7 +194,7 @@ DBMS의 ` 인덱스`도 마찬가지다. 인덱스가 많은 테이블에서는 
 
 > 📌 **B+-Tree**
 >
-> ![images_emplam27_post_bcbce100-d475-4cda-aebe-946d1813949c_B플러스 트리 기본 형태](/Users/isoyeon/Desktop/images_emplam27_post_bcbce100-d475-4cda-aebe-946d1813949c_B플러스 트리 기본 형태.jpg)
+> ![images_emplam27_post_bcbce100-d475-4cda-aebe-946d1813949c_B플러스 트리 기본 형태](https://github.com/user-attachments/assets/0bddcd8c-25c7-4c1f-ae08-185b7aaf7e95)
 >
 > - 위와 같은 구조가 `B+-Tree`로 대용량 데이터베이스에서 효율적인 범위 검색과 순차 접근을 위해 사용된다.
 > - `B+-Tree`는 `B-Tree`의 변형된 형태로, 리프 노드에만 실제 데이터가 저장되며, 리프 노드들이 연결 리스트 형태로 연결되어 있다.
@@ -304,7 +306,8 @@ DBMS의 ` 인덱스`도 마찬가지다. 인덱스가 많은 테이블에서는 
 
 해시 인덱스는 B-Tree만큼 범용적이지 않지만 고유의 특성과 용도를 지닌 인덱스 가운데 하나다. 주로 **메모리 기반**의 테이블에서 사용된다.
 
-![다운로드](/Users/isoyeon/Desktop/다운로드.png)
+![다운로드](https://github.com/user-attachments/assets/de25e44b-573d-4818-8ea3-e735ebb3fb82)
+
 
 - 데이터=컬럼의 값, 데이터의 위치를 (Key, Value)로 사용해 컬럼의 값으로 생성된 해시를 통해 인덱스를 구현
 - 해시 테이블의 시간복잡도는 O(1)이며 매우 빠른 검색을 지원
