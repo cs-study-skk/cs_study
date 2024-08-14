@@ -32,7 +32,8 @@ ILM은 데이터의 생성부터 삭제까지의 전체 라이프사이클을 �
 
 ## ILM 생명주기
 
-## ![스크린샷 2024-08-12 오후 10.12.18](/Users/isoyeon/Desktop/스크린샷 2024-08-12 오후 10.12.18.png)
+<img width="662" alt="스크린샷 2024-08-12 오후 10 12 18" src="https://github.com/user-attachments/assets/23e6d547-73fa-42f2-be95-235d7d0fbb82">
+
 
 1. **데이터 생성 (Creation)**
 
@@ -64,7 +65,8 @@ ILM은 데이터의 생성부터 삭제까지의 전체 라이프사이클을 �
 
 ## ILM 구성요소
 
-![K-3](/Users/isoyeon/Desktop/K-3.jpg)
+![K-3](https://github.com/user-attachments/assets/89ea5159-8ad1-4a33-b105-bf2d6558ecd1)
+
 
 - 데이터 분류: 데이터를 중요도, 민감도, 접근 빈도에 따라 분류해 각 데이터에 적합한 관리 방침 적용
 - 스토리지 계층화: 데이터를 중요도와 접근 빈도에 따라 적절한 스토리지에 저장함
@@ -81,7 +83,8 @@ ILM은 기업의 데이터 관리 아키텍처를 구성하는 기술요소 중 
 
 ILM을 구현하는 기술 중 가장 핵심적인 기술은 고가의 운영 스토리지 데이터 중 가치가 떨어지는 데이터를 구분하여 저비용 스토리지로 이관해주는 **아카이빙(Archiving)** 관리 기술이다.
 
-![스크린샷 2024-08-12 오후 10.24.19](/Users/isoyeon/Library/Application Support/typora-user-images/스크린샷 2024-08-12 오후 10.24.19.png)
+<img width="831" alt="스크린샷 2024-08-12 오후 10 24 19" src="https://github.com/user-attachments/assets/d5eface2-92e5-4b3e-b34e-2b353287b031">
+
 
 > 📎 **아카이빙(Archiving)과 백업(Backup)의 차이**
 >
@@ -176,7 +179,7 @@ ILM을 구현하는 기술 중 가장 핵심적인 기술은 고가의 운영 �
 
 | 구분 | 소프트웨어 방식                                              | 하드웨어(Appliance) 방식 - 스토리지 내장방식                 | 하드웨어 방식 - 게이트웨이(Gateway) 방식                     |
 | ---- | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| 구성 | ![스크린샷 2024-08-12 오후 10.35.09](/Users/isoyeon/Library/Application Support/typora-user-images/스크린샷 2024-08-12 오후 10.35.09.png) | ![스크린샷 2024-08-12 오후 10.35.21](/Users/isoyeon/Library/Application Support/typora-user-images/스크린샷 2024-08-12 오후 10.35.21.png) | ![스크린샷 2024-08-12 오후 10.35.28](/Users/isoyeon/Library/Application Support/typora-user-images/스크린샷 2024-08-12 오후 10.35.28.png) |
+| 구성 | ![스크린샷 2024-08-12 오후 10 35 09](https://github.com/user-attachments/assets/0d20783b-6417-4cf8-b235-1b6f5b6e1af0) | ![스크린샷 2024-08-12 오후 10 35 21](https://github.com/user-attachments/assets/51c3e65c-7dbb-4dff-8ce9-357cebb5eeee) | ![스크린샷 2024-08-12 오후 10 35 28](https://github.com/user-attachments/assets/2a30ca61-c969-4194-8ee8-d1733d75f05f) |
 | 장점 | 스토리지 독립적<br />(이기종 스토리지 지원)<br />아카이빙 데이터 조회성능 우수<br />DB/File 아카이빙 지원 | 어플리케이션 변경 최소화<br />(단일 Access Point)            | 스토리지에 독립적<br />(이기종 스토리지 지원)                |
 | 단점 | 아카이빙 데이터 조회용<br />어플리케이션 필요                | 아카이빙 데이터 조회성능 미흡<br />스토리지에 종속됨         | Hardware 장애 포인트 증가<br />DB 아카이빙에 적용 불가       |
 
