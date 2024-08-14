@@ -1,8 +1,8 @@
 # 금융 IT 시스템 구조
 
+<img width="854" alt="스크린샷 2024-08-14 오후 11 28 02" src="https://github.com/user-attachments/assets/74ccc98e-a937-40ce-a9e4-32bc36b20ca1">
 
 
-## ![스크린샷 2024-08-14 오후 11.23.27](/Users/isoyeon/Library/Application Support/typora-user-images/스크린샷 2024-08-14 오후 11.23.27.png)
 
 
 
