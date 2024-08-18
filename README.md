@@ -92,8 +92,8 @@
 
   - [운영체제란](https://github.com/cs-study-skk/cs_study/blob/main/OS/operating_system.md)
   - [프로세스와 프로세스 통신](https://github.com/cs-study-skk/cs_study/blob/main/OS/process.md)
-  - [스레드 및 멀티스레딩]
-  - [프로세스 vs 스레드]
+  - 스레드 및 멀티스레딩
+  - 프로세스 vs 스레드
   - [인터럽트(Interrupt)](https://github.com/cs-study-skk/cs_study/blob/main/OS/Interrupt.md) 
   - [시스템 콜(System Call)](https://github.com/cs-study-skk/cs_study/blob/main/OS/System_Call.md)
   - [PCB와 Context Switching](https://github.com/cs-study-skk/cs_study/blob/main/OS/PCB_Context_Switching.md)
